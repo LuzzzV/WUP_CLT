@@ -84,6 +84,8 @@ print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 ```
 
+As the sample increases the standard deviation gets smaller while the mean stays the same. With numb=4 the mean =  49.515  sd =  19.9392884834245 which is close to 21 meaning it makes sense.
+
  In this case the stdev was cut in half because the sample size was four. This is what the central limit theorem says. There are also 5 peaks. They go from FFFF,to FFFM, to FFMM to FMMM and finally MMMM.
 
 ## Now finish by adding blocks with numb being 9, then 16, 25, and 36. be sure to mention how the standard deviation progresses as the sample size changes,
@@ -108,6 +110,8 @@ p + ggtitle("n = 4") +
 print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 ```
+
+As the sample increases the standard deviation gets smaller while the mean stays the same. With numb=9, mean =  49.6287777777778 and sd =  14.1762847742495 which is close to 14 meaning it makes sense.
 
 ```{r}
 numb = 16
